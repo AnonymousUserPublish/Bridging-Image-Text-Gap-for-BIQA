@@ -1,5 +1,4 @@
-
-
+#
 Bridging Image-Text Gap for BIQA
 
 
@@ -43,7 +42,7 @@ check the differnt scripts for evaluating the sevearl tasks
 - [x] Release the paper
 
 ## Acknowledgement
-This work and repo is built based on [Q-Insight] (https://github.com/bytedance/Q-Insight).
+This work and repo is built based on [Q-Insight](https://github.com/bytedance/Q-Insight).
 We appreciate the releasing codes and data of [Q-Insight](https://github.com/bytedance/Q-Insight), [VLM-R1](https://github.com/om-ai-lab/VLM-R1),  and [DeQA-Score](https://github.com/zhiyuanyou/DeQA-Score).
 
 
@@ -58,4 +57,5 @@ If you find the code helpful in your research or work, please cite the following
   year={2026}
 }
 ```
+
 
