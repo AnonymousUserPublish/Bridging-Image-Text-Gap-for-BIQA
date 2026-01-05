@@ -1,5 +1,4 @@
-<div align="center">
-<h3>
+
 
 Bridging Image-Text Gap for BIQA
 
@@ -59,3 +58,4 @@ If you find the code helpful in your research or work, please cite the following
   year={2026}
 }
 ```
+
