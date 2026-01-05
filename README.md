@@ -52,10 +52,11 @@ We appreciate the releasing codes and data of [Q-Insight](https://github.com/byt
 
 If you find the code helpful in your research or work, please cite the following papers:
 ```
-@article{li2026,
+@article{2026,
   title={Bridging Image-Text Gap in BIQA},
   year={2026}
 }
 ```
+
 
 
