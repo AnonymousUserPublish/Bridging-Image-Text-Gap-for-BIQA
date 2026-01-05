@@ -210,7 +210,7 @@ class Qwen2VLGRPOTrainer(Trainer):
         callbacks: Optional[list[TrainerCallback]] = None,
         optimizers: tuple[Optional[torch.optim.Optimizer], Optional[torch.optim.lr_scheduler.LambdaLR]] = (None, None),
         peft_config: Optional["PeftConfig"] = None,
-        max_pixels: Optional[int] = 12845056,
+        max_pixels: Optional[int] = 60*28*28,
         min_pixels: Optional[int] = 3136,
         attn_implementation: str = "flash_attention_2",
         torch_dtype: str = "bfloat16",
@@ -247,7 +247,7 @@ class Qwen2VLGRPOTrainer(Trainer):
             if "Qwen2-VL" in model_id:
                 model = Qwen2VLForConditionalGeneration.from_pretrained(model, **model_init_kwargs)
             elif "Qwen2.5-VL" in model_id:
-                model = Qwen2_5_VLForConditionalGeneration.from_pretrained(model, **model_init_kwargs)
+                model = Qwen2_5_VLForConditionalGeneration.from_pretrained(model,**model_init_kwargs)
             elif "Aria" in model_id:
                 model_init_kwargs.pop("use_cache")
                 model = AriaForConditionalGeneration.from_pretrained(model, **model_init_kwargs)
@@ -592,7 +592,7 @@ class Qwen2VLGRPOTrainer(Trainer):
                         # Repeat each value in the column for `num_generations` times
                         reward_kwargs[key].extend([example[key]] * self.num_generations)
                 output_reward_func = reward_func(prompts=prompts, completions=completions, **reward_kwargs)
-                rewards_per_func[:, i] = torch.tensor(output_reward_func, dtype=torch.float32, device=device)
+                rewards_per_func[:, i] = torch.tensor(output_reward_func, dtype=torch.bfloat16, device=device)
 
         # Gather rewards across processes
         rewards_per_func = self.accelerator.gather(rewards_per_func)

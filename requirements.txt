@@ -132,7 +132,7 @@ numpy==1.26.4
 nvidia-ml-py==12.575.51
 oauthlib==3.2.2
 # Editable install with no version control (open-r1==0.1.0.dev0)
--e ./src/open-r1-multimodal/src
+#-e ./src/open-r1-multimodal/src
 overrides==7.7.0
 packaging==24.1
 pandas==2.2.3
