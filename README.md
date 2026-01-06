@@ -33,7 +33,10 @@ v11 -> baseline, v12 -> CoT, v13 -> Self-Consistency, v14 -> Auto-encoder
 cd src/test_scripts/
 check the differnt scripts for evaluating the sevearl tasks
 ```
-
+## File Path
+```
+PLease change the 1.training config file 2.training dataset folder path 3.default weights path to your own directory.
+```
 
 ##  To Do List
 - [] Release weights
@@ -56,6 +59,7 @@ If you find the code helpful in your research or work, please cite the following
   year={2026}
 }
 ```
+
 
 
 
