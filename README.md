@@ -33,6 +33,13 @@ v11 -> baseline, v12 -> CoT, v13 -> Self-Consistency, v14 -> Auto-encoder
 cd src/test_scripts/
 check the differnt scripts for evaluating the sevearl tasks
 ```
+## Model Weights
+Backbone: [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
+Pretrained: waiting for upload.
+CoT: waiting for upload.
+Self-Consistency: waiting for upload.
+Autoencoder: waiting for upload.
+
 ## File Path
 ```
 PLease change the 1.training config file 2.training dataset folder path 3.default weights path to your own directory.
@@ -45,7 +52,7 @@ PLease change the 1.training config file 2.training dataset folder path 3.defaul
 
 ## Acknowledgement
 This work and repo is built based on [Q-Insight](https://github.com/bytedance/Q-Insight).
-We appreciate the releasing codes and data of [Q-Insight](https://github.com/bytedance/Q-Insight), [VLM-R1](https://github.com/om-ai-lab/VLM-R1),  and [DeQA-Score](https://github.com/zhiyuanyou/DeQA-Score).
+We appreciate the releasing codes and data of [Q-Insight](https://github.com/bytedance/Q-Insight),[Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct), [VLM-R1](https://github.com/om-ai-lab/VLM-R1),  and [DeQA-Score](https://github.com/zhiyuanyou/DeQA-Score).
 
 
 
@@ -59,6 +66,7 @@ If you find the code helpful in your research or work, please cite the following
   year={2026}
 }
 ```
+
 
 
 
