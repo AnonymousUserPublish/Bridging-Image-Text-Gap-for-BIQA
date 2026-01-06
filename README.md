@@ -35,9 +35,9 @@ check the differnt scripts for evaluating the sevearl tasks
 ```
 ## Model Weights
 Backbone: [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
-Pretrained: waiting for upload.
-CoT: waiting for upload.
-Self-Consistency: waiting for upload.
+Pretrained,
+CoT,
+Self-Consistency,
 Autoencoder: waiting for upload.
 
 ## File Path
@@ -66,6 +66,7 @@ If you find the code helpful in your research or work, please cite the following
   year={2026}
 }
 ```
+
 
 
 
