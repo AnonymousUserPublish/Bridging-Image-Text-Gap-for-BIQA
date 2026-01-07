@@ -1,2 +1,2 @@
 datasets:
-  - json_path: /mnt/data3/datasets/ar_datasets/2026cvpr_data/koniq_meta/train_koniq_7k.json
+  - json_path: data_config/train_koniq_7k.json
