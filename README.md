@@ -8,7 +8,7 @@ Text-IQA minimize the PLCC/SRCC performance between image-conditioned and text-c
 
 ##  Dependencies and Installation
 ```bash
-git clone  this repo
+git clone git@github.com:AnonymousUserPublish/Bridging-Image-Text-Gap-for-BIQA.git
 bash setup.sh
 ```
 
@@ -66,6 +66,7 @@ If you find the code helpful in your research or work, please cite the following
   year={2026}
 }
 ```
+
 
 
 
