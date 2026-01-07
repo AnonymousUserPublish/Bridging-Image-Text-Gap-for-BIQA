@@ -1,5 +1,4 @@
 from .grpo_trainer import Qwen2VLGRPOTrainer
-from .grpo_trainer_comparison import Qwen2VLGRPOTrainerComparison
 from .grpo_config import GRPOConfig
 
 from .grpo_trainer_v11 import Qwen2VLGRPOTrainer_v11
