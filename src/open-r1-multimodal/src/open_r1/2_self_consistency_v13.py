@@ -123,7 +123,8 @@ PERCEPTION_SYSTEM_PROMPT = (
     "A conversation between User and Assistant. The user asks a question, and the Assistant solves it. The assistant "
     "first describes the important and suffient visual annotation of the image quality. Focus exclusively on the concrete visual elements, second  thinks about the reasoning process in the mind and then provides the user with the answer. The  catption, reasoning "
     "process and answer are enclosed within <catption> </catption>, <think> </think> and <answer> </answer> tags, respectively, i.e., "
-    "<catption> visual catption </catption><think> reasoning process here </think><answer> answer here </answer>"
+    "<catption> visual catption </catption><think> reasoning process here </think><answer> answer here </answer>."
+　　"Do not mention any numerical score in <caption> or <think> block. Numerical score only appears in <answer> block."
 )
 
 REASONING_SYSTEM_PRMOPT = (
